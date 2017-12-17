@@ -30,6 +30,7 @@ Tjedni zadaci mogu uključivati:
 - pronalazak neželjenih predmeta (spam, govor mržnje)
 - dodavanje novih pravnih osoba
 - izmjena kontakt podataka za postojeće javne osobe
+- [više...][maintenance]
 
 ### Korisnička podrška
 - pogrešno dostavljen e-mail (na team umjesto na pravnu osobu)
@@ -37,14 +38,15 @@ Tjedni zadaci mogu uključivati:
 - korisnik koji trebaju savjet vezano uz njihov predmet i zakon
 - molba za uklanjanje osobnih podataka (cenzura)
 - molba za uklanjanje govora mržnje
+- [više...][user-support]
 
 # Terminologija
 
 Ovdje koristimo često sljedeće pojmove:
 
-- **predmet** je svaki pojedini *thread* na portalu kojeg započinje podnositelj nekog prigovora potrošača, također se zove *request* u administracijskom slučelju; sastoji se od odlaznih poruka, dolaznih poruka i komentara a može ih biti više
-- **odlazna poruka** je svaka poruka koju podnositelj piše za neki predmet, one se šalju pravnoj osobi u obliku e-maila
-- **prigovor** je obično prva odlazna poruka u jednom predmetu; to je poruka u kojoj podnositelj prigovora prvi put iznosi svoju reklamaciju
+- **predmet** je svaki pojedini *thread* na portalu kojeg započinje podnositelj nekog zahtjeva za pravo na pristup informacijama (PPI) ili zahtjeva za ponovnu uporabu informacija, također se zove *request* u administracijskom slučelju; sastoji se od odlaznih poruka, dolaznih poruka i komentara a može ih biti više
+- **odlazna poruka** je svaka poruka koju podnositelj piše za neki predmet, one se šalju tijelu javne vlasti u obliku e-maila
+- **prigovor** je obično prva odlazna poruka u jednom predmetu; to je poruka u kojoj podnositelj zahtjeva traži neke informacije od tijela javne vlasti
 - **dolazna poruka** je svaka poruka zaprimljena na Reklamacije.net kao odgovor na bilo koju odlaznu poruku za neki predmet
 - **komentar** je komentar bilo kojeg korisnika na bilo kojem predmetu; oni se ne šalju pravoj osobi
 
