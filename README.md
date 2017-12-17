@@ -1,6 +1,6 @@
-# Reklamacije.net administrator manual :construction:
+# Alaveteli administrator manual :construction:
 
-This is Jekyll Github pages with administrator's manual for Reklamacije.net. Few modifications are done on Swiss Theme to accomodate our needs.
+This is Jekyll Github pages with administrator's manual for ImamoPravoZnati.org. Few modifications are done on Swiss Theme to accomodate our needs.
 
 ## Based on Swiss Jekyll Theme
 
