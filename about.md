@@ -4,7 +4,7 @@ title: O priručniku
 permalink: /prirucnik/
 ---
 
-Ovaj priručnik namjenjen je za administratore i moderatore portala Reklamacije.net kojeg pokreće platforma Alaveteli. Nastavi čitati ako si administrator portala.
+Ovaj priručnik namjenjen je za administratore i moderatore portala ImamoPravoZnati.org kojeg pokreće platforma Alaveteli. Nastavi čitati ako si administrator portala.
 
 # Priručnik za administratore i moderatore
 Ovaj priručnik podrobnije će objasniti kako se administrira portal, što možeš očekivati i kakve probleme možeš otkriti. Također uključuje primjere dobre prakse iz drugih projekata i drugih zemalja.
