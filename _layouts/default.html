@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div>
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+    
+    {% case site.analytics.provider %}
+      {% when "google" %}
+        {% include analytics/google.html %}
+    {% endcase %}
+
+  </body>
+
+</html>
