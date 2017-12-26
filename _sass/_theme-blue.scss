@@ -25,8 +25,8 @@ $color-primary-link: $blue !default;
 // Import sass partials (used in all themes)
 @import
         "variables",
-        "clippy",
         "base",
         "components",
+        "clippy",
         "utilities"
 ;
