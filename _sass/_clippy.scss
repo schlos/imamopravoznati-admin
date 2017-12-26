@@ -1,46 +1,8 @@
 // Styling for clipboard.js
 
 /* ==========================================================================
-   Main
+   Main clippy
    ========================================================================== */
-
-.wrap {
-    margin: 0 auto 90px;
-    max-width: 540px;
-    padding: 0 15px;
-}
-
-p {
-    color: #333;
-    font-size: 18px;
-    line-height: 1.7;
-}
-
-a {
-    color: #1BC1A1;
-    border-bottom: 1px dotted #1BC1A1;
-    -webkit-transition: opacity .3s ease-in-out;
-    transition: opacity .3s ease-in-out;
-}
-
-a:hover,
-a:focus {
-    text-decoration: none;
-    opacity: .7;
-}
-
-h1 {
-    margin-top: 80px;
-    color: #1BC1A1;
-}
-
-h3 {
-    color: #333;
-    margin: 40px 0;
-    font-size: 18px;
-    font-weight: 300;
-    text-align: center;
-}
 
 .clippy {
     margin-top: -3px;
@@ -52,7 +14,7 @@ h3 {
     opacity: .3;
 }
 
-/* Example
+/* Example clippy
    ========================================================================== */
 
 .example {
@@ -91,7 +53,7 @@ h3 {
     padding: 20px 0 0;
 }
 
-/* Live example
+/* Live example clippy
    ========================================================================== */
 
 .form-actions {
@@ -109,7 +71,7 @@ textarea {
     width: 100%;
 }
 
-/* Code
+/* Code clippy
    ========================================================================== */
 
 .highlight {
