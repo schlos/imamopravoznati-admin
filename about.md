@@ -4,7 +4,7 @@ title: O priručniku
 permalink: /prirucnik/
 ---
 
-Ovaj priručnik namjenjen je za administratore i moderatore portala ImamoPravoZnati.org kojeg pokreće platforma Alaveteli. Nastavi čitati ako si administrator portala.
+Ovaj priručnik namjenjen je za administratore i moderatore portala [Imamo pravo znati][IPZ] kojeg pokreće platforma Alaveteli. Nastavi čitati ako si administrator portala.
 
 # Priručnik za administratore i moderatore
 Ovaj priručnik podrobnije će objasniti kako se administrira portal, što možeš očekivati i kakve probleme možeš otkriti. Također uključuje primjere dobre prakse iz drugih projekata i drugih zemalja.
@@ -53,3 +53,4 @@ Ovdje koristimo često sljedeće pojmove:
 [richard-blog-2009]:    https://www.mysociety.org/2009/10/13/behind-whatdotheyknow/
 [maintenance]:          /2017/09/17/odrzavanje.html
 [user-support]:         /2017/09/16/korisnicka-podrska.html
+[IPZ]:                  https://imamopravoznati.org
