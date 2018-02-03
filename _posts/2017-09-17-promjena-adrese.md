@@ -18,20 +18,20 @@ Molimo vas da nam javite ukoliko želite da ponovno pošaljemo druge predmete na
 Slijedeći predmet je ponovno poslan na novu adresu: _______
 
 Lijep pozdrav,
-[tvoje ime], volonter na Reklamacije.net
+[tvoje ime], volonter na {{ site.portal }}
 ```
 
-Ukoliko nema odgovora na predmet koji je ponovno poslan pravnoj osobi ili se e-mail poruka ne može isporučiti, moguće je da e-mail poruka nije prošla kroz anti-spam software na primateljevom poslužitelju. U tom slučaju se savjetuje da sa druge e-mail adrese pošalješ e-mail pravnoj osobi kako bi se osiguralo da e-mailovi poslani s portala Reklamacije.net mogu proći kroz njihov anti-spam software:
+Ukoliko nema odgovora na predmet koji je ponovno poslan pravnoj osobi ili se e-mail poruka ne može isporučiti, moguće je da e-mail poruka nije prošla kroz anti-spam software na primateljevom poslužitelju. U tom slučaju se savjetuje da sa druge e-mail adrese pošalješ e-mail pravnoj osobi kako bi se osiguralo da e-mailovi poslani s portala {{ site.portal }} mogu proći kroz njihov anti-spam software:
 
 ```
 Poštovani,
 e-mail poruke poslane s našeg poslužitelja nisu isporučeni primatelju na vašoj strani.
 
-Bili bi veoma zahvalni kada bi mogli sa svojim informatičkim odjelom provjeriti da e-mailovi primljeni od Reklamacije.net nisu završili u spamu te da postavite ovu domenu u vašu whitelistu.
+Bili bi veoma zahvalni kada bi mogli sa svojim informatičkim odjelom provjeriti da e-mailovi primljeni od {{ site.portal }} nisu završili u spamu te da postavite domenu {{ site.portal.domain }} u vašu whitelistu.
 
 Lijep pozdrav,
-[tvoje ime], volonter na Reklamacije.net
+[tvoje ime], volonter na {{ site.portal }}
 ```
 
-[1]:  https://imamopravoznati.org/body/list/all
-[2]:  https://imamopravoznati.org
+[1]:  {{ site.portal.url }}/body/list/all
+[2]:  {{ site.portal.url }}
