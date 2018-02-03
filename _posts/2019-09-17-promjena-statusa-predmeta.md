@@ -19,5 +19,5 @@ hvala vam na javljanju. Podnositelj određuje status predmeta temeljem svoje pro
 Nakon što smo pregledati ovaj predmet, klasificirali smo ga kao [status].
 
 Lijep pozdrav,
-[tvoje ime], volonter na {{ site.portal }}
+[tvoje ime], volonter na {{ site.portal.name }}
 ```
