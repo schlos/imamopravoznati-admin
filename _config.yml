@@ -20,7 +20,7 @@ url: "http://admin.imamopravoznati.org" # the base hostname & protocol for your 
 github_repo: imamopravoznati-admin # the GitHub repo name for your project
 github_username: codeforcroatia
 portal: Imamo pravo znati
-  rooturl: "https://imamopravoznati.org"
+  #url: "https://imamopravoznati.org"
   app: Alaveteli
   type: Pravo na pristup informacijama
   domain: imamopravoznati.org
