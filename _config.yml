@@ -16,7 +16,7 @@
 title: Imamo pravo znati Admin
 description: Stranice namjenjene za administratore Alaveteli portala.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://admin.imamopravoznati.org" # the base hostname & protocol for your site
+url: "https://admin.imamopravoznati.org" # the base hostname & protocol for your site
 github_repo: imamopravoznati-admin # the GitHub repo name for your project
 github_username: codeforcroatia
 portal:
