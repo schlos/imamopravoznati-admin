@@ -170,7 +170,7 @@ Ponekad je nužno ukloniti detalje korisnika sa Alaveteli stranice kako se ti de
 - Možete dodati cenzuru kako bi ste uklonili ime korisnika sa pritužbi te zamijeniti ime sa `[ime uklonjeno]`. Ovo zahtijeva čitanje svih pritužbi. Potražite imena (i možda skraćenice) u referentnim brojevima itd. Možda će biti nužno doraditi pravila cenzure kako bi ste osigurali da su sve forme imena obuhvaćene cenzurom. Pogledajte više o uređivanju. 
 - Provjerite komentare te ih po potrebi uredite radi uklanjanje imena.
 
-### Omogućivanje korisniku da podnese više pritužbi
+### Omogućivanje korisniku da podnese više predmeta
 
 Alaveteli ima postavke konfiguracije za maksimalan broj predmeta po korisniku po danu `MAX_REQUESTS_PER_USER_PER_DAY`, a koji određuje maksimalan broj predmeta koje običan korisnik može poslati tijekom jednog dana. Ukoliko korisnik tijekom 24 sata pokuša poslati veći broj prigovora od tog broja, dobit će poruku koja će ga obavijestiti o dosezanju limita u broju prigovora, ali i potaknuti da nas kontaktiraju putem kontakt podataka ako smatra da ima dobar razlog tražiti da se ograničenje broja prigovora poveća.
 
