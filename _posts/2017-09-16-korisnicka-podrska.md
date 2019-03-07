@@ -103,7 +103,7 @@ Lijep pozdrav,
 
 Korisnik može tražiti općenitu pomoć iz više razloga:
 
-* povukao je prigovor, ali je ponovno otvoren nakon odgovora pravne osobe
+* povukao je predmet, ali je ponovno otvoren nakon odgovora pravne osobe
 * predlaže ispravke u imenu pravne osobe ili detaljima javne osobe
 * odgovor je automatski dodan ispod pogrešnog predmeta
 
