@@ -67,7 +67,7 @@ Idite u administracijsko sučelje, kliknite na **Requests**, zatim kliknite na n
 - Sakrijte predmet i obavijestite podnositelja predmeta
 - Sakrijte predmet bez obaviještavanja podnositelja predmeta
 
-Odgovori na sakriveni predmet biti će prigvaćeni uobičajeno, i oni će biti sakriveni kao i cijeli predmet.
+Odgovori na sakriveni predmet biti će prihvaćeni uobičajeno, i oni će biti sakriveni kao i cijeli predmet.
 
 ## Skrivanje predmeta i obaviještavanje podnositelja
 
