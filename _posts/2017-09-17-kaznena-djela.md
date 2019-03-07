@@ -15,7 +15,7 @@ nedavno ste koristili {{ site.portal.name }} kako bi poslali predmet za [naziv p
 
 [tekst poruke]
 
-Vaša poruka ne sadrži elemente prigovora potrošača sukladno Zakonu o zaštiti potrošača te potencijalno ima elemente kaznenog dijela što je protivno našim pravilima:
+Vaša poruka ne sadrži elemente zahtjeva sukladno Zakonu o pravu na pristup informacijama te potencijalno ima elemente kaznenog dijela što je protivno našim pravilima:
 [link na pravila stranice]
 
 Iz navedenih razloga, vaš je predmet sakriven od javnosti iako ju vi i dalje možete vidjeti kada se ulogirate na {{ site.portal.name }}.
