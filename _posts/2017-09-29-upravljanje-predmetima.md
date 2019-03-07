@@ -4,7 +4,7 @@ title:  "Upravljanje predmetima"
 date:   2017-09-29
 ---
 
-Alaveteli olakšava korisnicima u slanju pisanih predmeta - prigovora. Vi kao administrator trebate znati nekoliko stvari koje možete raditi s poslanim predmetom. 
+Alaveteli olakšava korisnicima u slanju pisanih predmeta - zahtjeva za pravo na pristup informacijama i zahtjeva za ponovnu uporabu informacija. Vi kao administrator trebate znati nekoliko stvari koje možete raditi s poslanim predmetom. 
 
 Predmet se kreira automatski kada korisnik podnese (i kada je potrebno) potvrdi slanje predmeta. Alaveteli ga tada šalje na email adresu odgovorne pravne osobe i rukuje zaprimljene odgovore po predmetu. Taj se postupak odvija bez bilo kakve intervencije administratora, ali ponekada ćete trebati izmijeniti neke dijelove predmeta, odnosno izmijeniti način na koji će Alaveteli rukovati njime.
 
