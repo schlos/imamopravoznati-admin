@@ -53,7 +53,7 @@ Alaveteli sadrži listu spam adresa. Bilo koja dolazna poruka koja se nalazi na 
 
 Ako vidite spam poruku u holding penu, provjerite da li je poruka poslana na određenu e-mail adresu. Ukoliko je, ta e-mail adresa je postala “meta” za spam te ju trebate dodati na listu spam adresa. Iz tog razloga, Alaveteli će automatski odbaciti bilo koju poruku koja dolazi s te adrese.
 
-E-mail adresa koja nije povezana s prigovorom (odnosno, ona čije poruke dolaze u holding pen) postaje meta za spam kada ju prikupe spammeri. Postoji nekoliko razloga zašto takva nevažeća adresa postoji. Na primjer, možda je krivo upisana prilikom ručnog odgovora. Naše iskustvo sa vođenja projekta Imamo pravo znati je da sa sigurnošću možete odbaciti e-mail koji dolazi na takve adrese jednom kada su ciljani na ovaj način. Legitimni e-mailovi koji dolaze u holding pen obično imaju jedinstvene greške (na primjer, nedostajanje zadnjeg znaka u e-mail adresi zbog pogreške prilikom kopiranja ili lijepljenja) i priroda životnog ciklusa pritužbe znači da obično nisu korišteni za spam dok nisu efektivno mrtvi.
+E-mail adresa koja nije povezana s predmetom (odnosno, ona čije poruke dolaze u holding pen) postaje meta za spam kada ju prikupe spammeri. Postoji nekoliko razloga zašto takva nevažeća adresa postoji. Na primjer, možda je krivo upisana prilikom ručnog odgovora. Naše iskustvo sa vođenja projekta Imamo pravo znati je da sa sigurnošću možete odbaciti e-mail koji dolazi na takve adrese jednom kada su ciljani na ovaj način. Legitimni e-mailovi koji dolaze u holding pen obično imaju jedinstvene greške (na primjer, nedostajanje zadnjeg znaka u e-mail adresi zbog pogreške prilikom kopiranja ili lijepljenja) i priroda životnog ciklusa pritužbe znači da obično nisu korišteni za spam dok nisu efektivno mrtvi.
 
 Za dodavanje e-mail adrese na listu spam adresa, potrebno je kopirati e-mail adresu sa primljene poruke i zalijepiti ju na listu spam adresa. Najjednostavniji način za napraviti to je klikom na **Summary** na vrhu administratorskog sučelja te potom klikom na **Put misdelivered responses with the right requests** kako bi ste vidjeli sadržaj holding pena.
 
@@ -172,7 +172,7 @@ Ponekad je nužno ukloniti detalje korisnika sa Alaveteli stranice kako se ti de
 
 ### Omogućivanje korisniku da podnese više predmeta
 
-Alaveteli ima postavke konfiguracije za maksimalan broj predmeta po korisniku po danu `MAX_REQUESTS_PER_USER_PER_DAY`, a koji određuje maksimalan broj predmeta koje običan korisnik može poslati tijekom jednog dana. Ukoliko korisnik tijekom 24 sata pokuša poslati veći broj prigovora od tog broja, dobit će poruku koja će ga obavijestiti o dosezanju limita u broju prigovora, ali i potaknuti da nas kontaktiraju putem kontakt podataka ako smatra da ima dobar razlog tražiti da se ograničenje broja prigovora poveća.
+Alaveteli ima postavke konfiguracije za maksimalan broj predmeta po korisniku po danu `MAX_REQUESTS_PER_USER_PER_DAY`, a koji određuje maksimalan broj predmeta koje običan korisnik može poslati tijekom jednog dana. Ukoliko korisnik tijekom 24 sata pokuša poslati veći broj predmeta od tog broja, dobit će poruku koja će ga obavijestiti o dosezanju limita u broju predmeta, ali i potaknuti da nas kontaktiraju putem kontakt podataka ako smatra da ima dobar razlog tražiti da se ograničenje broja predmeta poveća.
 
 Ukoliko želite povećati limit za podnošenje predmeta za određenog korisnika, potrebno je pristupiti administracijskom sučelju, kliknuti na **Users** te potom na ime odabranog korisnika. Zatim je potrebno kliknuti na gumb **Edit** i označiti kućicu **No rate limit** te kliknuti **Save**.
 
@@ -180,31 +180,31 @@ Ukoliko želite povećati limit za podnošenje predmeta za određenog korisnika,
 
 Ponekad jedan korisnik želi poslati pritužbu većem broju pravnih osoba što se naziva skupnim predmetima (*batch requests*). U pravilu, Alaveteli ne dozvoljava korisnicima slanje skupnih predmeta.
 
-> Smatramo da se skupni predmeti mogu zloupotrijebiti — korisnici mogu poslati loše smišljene ili uznemiravajuće prigovore koje mogu zasmetati pravnim osobama ili naštetiti reputaciji ove stranice. Međutim, dobro smišljene skupne prigovori mogu biti od velike koristi u borbi zaštite potrošača.
+> Smatramo da se skupni predmeti mogu zloupotrijebiti — korisnici mogu poslati loše smišljene ili uznemiravajuće predmete koje mogu zasmetati pravnim osobama ili naštetiti reputaciji ove stranice. Međutim, dobro smišljene skupne zahtjeve mogu biti od velike koristi u borbi zaštite potrošača.
 >
-> Preporučujemo dozvoljavanje slanja skupnih predmeta korisnicima za koje je uočeno da su poslali veći broj dobro sastavljenih prigovora različitim pravnim osobama.
+> Preporučujemo dozvoljavanje slanja skupnih predmeta korisnicima za koje je uočeno da su poslali veći broj dobro sastavljenih predmeta različitim pravnim osobama.
 >
-> Korisnici mogu izabrati koje pravne osobe će uključiti u skupne predmete. Također, mogu poslati prigovor svakoj pravnoj osobi na stranici. Preporuča se ovo dozvoliti samo korisnicima kojima vjerujete.
+> Korisnici mogu izabrati koje pravne osobe će uključiti u skupne predmete. Također, mogu poslati predmet svakoj pravnoj osobi na stranici. Preporuča se ovo dozvoliti samo korisnicima kojima vjerujete.
 
 Kako bi omogućili slanje skupnih predmeta, system administrator prvo treba postaviti `ALLOW_BATCH_REQUESTS` u `true` u general.yml konfiguraciji aplikacije. 
 
 Ova postavka još nikome ne dozvoljava slanje skupnih predmeta. Slanje skupnih predmeta se konfigurira zasebno za svakog pojedinog korisnika kojemu želite omogućiti ovu opciju. Kako bi to učinili, potrebno je otići na administracijsko sučelje, kliknuti na **Users** te zatim na ime korisnika kojem želite omogućiti slanje skupnih pritužbi. Kliknite gumb **Edit** i označite kućicu **Can make batch requests** i kliknite **Save**. 
 
-Ako ste korisniku omogućili sanje skupnih predmeta, kada krenu slati prigovore, uz kućicu gdje mogu izabrati pravnu osobu, vidjet će link  za slanje skupnih predmeta (*make a batch request*). Kada je pritužba poslana, Alaveteli će napraviti stranicu predmeta s popisom prigovora poslanih svakoj pravnnoj osobi kao da je korisnik slao individualne prigovore.
+Ako ste korisniku omogućili sanje skupnih predmeta, kada krenu slati predmete, uz kućicu gdje mogu izabrati pravnu osobu, vidjet će link  za slanje skupnih predmeta (*make a batch request*). Kada je pritužba poslana, Alaveteli će napraviti stranicu predmeta s popisom predmeta poslanih svakoj pravnoj osobi kao da je korisnik slao individualne predmete.
 
 ### Ponovno slanje predmeta ili slanje predmeta drugoj pravnoj osobi
 
-Ako ste ispravili e-mail adresu pravne osobe, možete ponovno poslati postojeću prigovor toj pravnoj osobi na novi e-mail. Također, korisnik može poslati pritužbu krivoj pravnoj osobi. U tom slučaju, možete promijeniti pravnu osobu u pritužbi te ponovno poslati pritužbu pravnoj osobi. Za upute pogledajte *ponovno slanje pritužbe ili slanje pritužbe drugoj pravnoj osobi*.
+Ako ste ispravili e-mail adresu pravne osobe, možete ponovno poslati postojeći predmet toj pravnoj osobi na novi e-mail. Također, korisnik može poslati pritužbu krivoj pravnoj osobi. U tom slučaju, možete promijeniti pravnu osobu u pritužbi te ponovno poslati pritužbu pravnoj osobi. Za upute pogledajte *ponovno slanje pritužbe ili slanje pritužbe drugoj pravnoj osobi*.
 
 ### Skrivanje predmeta
 
-Ako prigovor sadrži uznemiravajući, odnosno neprikladan sadržaj te ako nije u skladu sa Zakonom o zaštiti potrošača, može se sakriti. Skriveni predmet ostaje vidljiv podnositelju pritužbe i drugim administratorima. Za upute, pogledajte *[skrivanje predmeta][1]*.
+Ako predmet sadrži uznemiravajući, odnosno neprikladan sadržaj te ako nije u skladu sa Zakonom o zaštiti potrošača, može se sakriti. Skriveni predmet ostaje vidljiv podnositelju pritužbe i drugim administratorima. Za upute, pogledajte *[skrivanje predmeta][1]*.
 
 Skriveni predmeti mogu normalno zaprimiti odgovor, ali će odgovor također biti skriven.
 
 ### Brisanje predmeta
 
-Prigovor se može obrisati sa portala {{ site.portal.name }}. Za detaljnije upute, pogledajte [brisanje predmeta][2]. 
+Predmet se može obrisati sa portala {{ site.portal.name }}. Za detaljnije upute, pogledajte [brisanje predmeta][2]. 
 Odgovori na obrisane predmete će biti zaprimljeni u holding pen.
 
 ### Skrivanje primljene ili poslane poruke
@@ -213,7 +213,7 @@ Ponekad je potrebno sakriti određenu primljenu ili poslanu poruku, posebno u sl
 
 Administracijskom sučelju poruke možete pristupiti putem linka iz dijela “Outgoing messages” ili “Incoming messages” sa administraciske stranice specifičnog predmeta ili direktno sa javne stranice predmeta klikom na link **admin** u poruci. Kada pristupite administracijskom sučelju poruke, možete promijeniti njeno isticanje (*prominence*). 
 
-Postavite **prominence** u **hidden** kako bi sakrili poruku od svih osim od administratora ili u **requester_only** kako bi omogućili da poruku vidi podnositelj prigovora (i administratori). Ukoliko možete, dodajte tekst u polje **Reason for prominence**. To će biti prikazano na mjestu gdje se nalazila poruka na stranici pritužbe kako bi se znalo zašto je poruka sakrivena.
+Postavite **prominence** u **hidden** kako bi sakrili poruku od svih osim od administratora ili u **requester_only** kako bi omogućili da poruku vidi podnositelj predmeta (i administratori). Ukoliko možete, dodajte tekst u polje **Reason for prominence**. To će biti prikazano na mjestu gdje se nalazila poruka na stranici pritužbe kako bi se znalo zašto je poruka sakrivena.
 
 ### Brisanje primljene ili poslane poruke
 
@@ -233,7 +233,7 @@ U nekim slučajevima je potrebno urediti poslanu poruku. Primjerice, ako je kori
 
 ### Uređivanje ili skrivanje komentara
 	
-Komentari su jednostavniji od prigovora ili poruka jer postoje samo na stranici predmeta, tj. nisu poslani nigdje. Ako predmet ima komentare, oni će biti prikazani u administracijskom sučelju tog predmeta. Spustite se niže na stranici do popisa komentara, a svaki pojedini komentar možete uređivati klikom na njegov naslov.
+Komentari su jednostavniji od zahtjeva ili poruka jer postoje samo na stranici predmeta, tj. nisu poslani nigdje. Ako predmet ima komentare, oni će biti prikazani u administracijskom sučelju tog predmeta. Spustite se niže na stranici do popisa komentara, a svaki pojedini komentar možete uređivati klikom na njegov naslov.
 
 Predlažemo da vaše promijene učinite eksplicitnima. Primjerice, ako uklanjate osobne podatke, umjesto da ih samo obrišete, radije ih zamijenite sa nečim što indicira što je uklonjeno: `[uklonjena je osobna informacija]`.
 
@@ -255,7 +255,7 @@ Poput cenzura koje se temelje na običnom tekstu, cenzura za redovne RegEx izraz
 - ograničite RegEx primjenu na slučajeve koji se inače ne mogu lako pokriti
 - neka budu što jednostavniji i konkretniji.
 
-Kako bi cenzurirali dio prigovora, potrebno je pristupiti administracijskom sučelju predmeta, otići na dno stranice te kliknuti na gumb **New censor rule (for this request only)**. Na slijedećoj stranici unesite tekst koji želite zamijeniti, npr. "određena privatna informacija," tekst s kojim privatnu informaciju želite zamijeniti, npr. `[osobna informacija]` te je potrebno dodati komentar kako bi drugi administratori znali zašto je informacija sakrivena.
+Kako bi cenzurirali dio predmeta, potrebno je pristupiti administracijskom sučelju predmeta, otići na dno stranice te kliknuti na gumb **New censor rule (for this request only)**. Na slijedećoj stranici unesite tekst koji želite zamijeniti, npr. "određena privatna informacija," tekst s kojim privatnu informaciju želite zamijeniti, npr. `[osobna informacija]` te je potrebno dodati komentar kako bi drugi administratori znali zašto je informacija sakrivena.
 
 Za dodavanje cenzure korisniku, kako bi se cenzura odnosila na svaki predmet koji korisnik napravi, pristupite stranici korisnika preko administracijskog sučelja. Stranici korisnika možete pristupiti klikom na **Users** na administracijskom izborniku te pronalaskom željenog korisnika ili preko administratorskog linka za odabranog korisnika sa javnog sučelja.
 
