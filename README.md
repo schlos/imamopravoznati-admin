@@ -38,7 +38,7 @@ Or install it yourself as:
     $ gem install jekyll-swiss
 
 ## Usage
-This theme comes in eight different color variations. The default Reklamacije.net color is set to the custom violet theme, to change to a different theme edit the config under `theme-color: violet`.
+This theme comes in eight different color variations. The default color is set to the custom violet theme, to change to a different theme edit the config under `theme-color: violet`.
 
 ## Contributing
 
