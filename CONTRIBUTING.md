@@ -29,8 +29,8 @@ This project and everyone participating in it is governed by the Code for Croati
 
 We have an official message board with a detailed FAQ and where the community chimes in with helpful advice if you have questions.
 
-* [Diskurs, the official HrOpen and Code for Croatia message board](http://diskurs.open.hr)
-* [Imamo pravo znati FAQ](http://imamopravoznati.org/help)
+* [Diskurs, the official Code for Croatia message board](http://diskurs.codeforcroatia.org)
+* [Imamo pravo znati FAQ](https://imamopravoznati.org/help)
 
 If chat is more your speed, you can join the Code for Croatia Slack team:
 
@@ -47,7 +47,7 @@ If chat is more your speed, you can join the Code for Croatia Slack team:
 
 ### Reporting Bugs
 
-This section guides you through submitting a bug report for Reklamacije.net. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
+This section guides you through submitting a bug report for portal. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
 
 Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](ISSUE_TEMPLATE.md), the information it asks for helps us resolve issues faster.
 
@@ -55,7 +55,7 @@ Before creating bug reports, please check [this list](#before-submitting-a-bug-r
 
 #### Before Submitting A Bug Report
 
-* **Check the [FAQs on the forum](http://diskurs.open.hr/)** for a list of common questions and problems.
+* **Check the [FAQs on the forum](http://diskurs.codeforcroatia.org/)** for a list of common questions and problems.
 * **Perform a [cursory search](https://github.com/issues?q=+is%3Aissue+user%3Acodeforcroatia)** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
 
 #### How Do I Submit A (Good) Bug Report?
