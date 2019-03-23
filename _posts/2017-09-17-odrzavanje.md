@@ -100,7 +100,7 @@ Većina programa za uređivanje tablica će samostalno kreirati CSV datoteku uz 
 Da pojasnimo:
 - Postojeće pravne osobe se ne mogu preimenovati uploadanjem: ako trebate to učiniti, koristite administracijsko sučelje radi uređivanja postojećih podataka i promijenite ime pravne osobe u internetskom sučelju.
 - Kada pravna osoba već postoji odnosno polje `name` se potpuno podudara s nazivom postojeće pravne osobe, i ako je neko polje prazno, import će ostaviti postojeću vrijednost tog polja nepromijenjenom — odnosno, ti podaci na stranici se neće promijeniti. To znači da je potrebno uključiti samo podatke koje želite ažurirati.
-- Stupac `i18n suffix` može prihvatiti internacionalna imena. Dodajte točku te zatim jezični kod, na primjer: `name.hr` za hrvatski jezik (hr). Ovo mora biti regija koja je definirana u popisu mogućih jezika u konfiguraciji aplikacije. Ako ne specificirate i18n suffix, zadani jezik za Reklamacije.net će biti pretpostavljen na zadanu vrijednost.
+- Stupac `i18n suffix` može prihvatiti internacionalna imena. Dodajte točku te zatim jezični kod, na primjer: `name.hr` za hrvatski jezik (hr). Ovo mora biti regija koja je definirana u popisu mogućih jezika u konfiguraciji aplikacije. Ako ne specificirate i18n suffix, zadani jezik za portal će biti pretpostavljen na zadanu vrijednost.
 - Možete specificirati prazan unos u CSV datoteci tako da ne stavljate znakove između zareza.
 - Ako unos sadrži zarez, stavite ga u dvostruke navodnike kao u nastavku: `"Comma, Inc"`.
 - Ako unos sadrži dvostruke navodnike, svaki od njih morate zamijeniti sa dva navodnika (dakle, `"` postaje `""`) te staviti cijeli unos u dvostruke navodnike: `"U ""navodnicima"""` (bit će uvezeno kao `U "navodnicima"`).
@@ -136,7 +136,7 @@ Ukoliko je sve bilo OK prilikom probnog pokretanja, kliknite **Upload**. Ovo će
 
 Možete lako napraviti tablicu koja sadrži pravne osobe koje već postoje na stranici. Ako kombiniranirate sa mogućnošću uploada opisanu iznad ovo može biti praktičniji način ažuriranja podataka od uređivanja podataka u administracijskom sučelju. 
 
-Kako bi izvezli postojeće podatke pravnih osoba, potrebno je biti na naslovnoj stranici Reklamacije.net (ne administracijskoj) te klikniti **View Authorities**. Zatim kliknite **List of all authorities (CSV)** kako bi dobili CSV datoteku u kojoj možete raditi promijene korištenjem programa za uređivanje tablica te ju uploadati prema gornjim uputama.
+Kako bi izvezli postojeće podatke pravnih osoba, potrebno je biti na naslovnoj stranici (ne administracijskoj) te klikniti **View Authorities**. Zatim kliknite **List of all authorities (CSV)** kako bi dobili CSV datoteku u kojoj možete raditi promijene korištenjem programa za uređivanje tablica te ju uploadati prema gornjim uputama.
 
 Bit će potrebno maknuti neke stupce koji nisu podržani u uvozu podataka te možda promijeniti neke nazive – pogledajte nazive stupaca gore. Također, uočite da, u pravilu, izvezena tablica ne sadrži stupac `request_email`. Ako želite ažurirati e-mail adrese, potrebno je u tablicu ručno dodati stupac naziva `request_email` te popuniti e-mail adrese za svaku pravnu osobu koju je potrebno ažurirati. Pravne osobe koje nemaju unesenu vrijednost u nekom stupcu, zadržat će postojeću vrijednost za taj atribut.
 
