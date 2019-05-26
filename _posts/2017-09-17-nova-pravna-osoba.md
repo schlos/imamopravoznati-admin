@@ -20,4 +20,4 @@ Lijep pozdrav,
 
 ```
 
-[add-new]: /2019/05/26/kako-dodati-novu-pravnu-osobu.html
+[add-new]: /how-to/2019/05/26/kako-dodati-novu-pravnu-osobu.html
