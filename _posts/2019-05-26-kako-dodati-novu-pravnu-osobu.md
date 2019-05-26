@@ -6,7 +6,7 @@ categories: how-to
 ---
 
 Dodavanje nove pravne osobe može biti inicirano na više načina:
-- administrator otkrije novo potencijalno tijelo javne vlasti u sklopu redovnog održavanja
+- administrator otkrije novo potencijalno tijelo javne vlasti u sklopu [redovnog održavanja][maintenance]
 - zaprimljen je prijedlog od korisnika portala
 - zaprimljen je zahtjev od službenika za informiranje u tijelu javne vlasti
 - zaprimljen je zahtjev od Povjerenika za informiranje
@@ -20,3 +20,4 @@ Ukoliko je potrebno dodati novu pravnu osobu na prijedlog korisnika portala, to 
 
 [TJV]:                https://tjv.pristupinfo.hr
 [add-new-template]:   /template/2017/09/17/nova-pravna-osoba.html
+[maintenance]:        /2017/09/17/odrzavanje.html
