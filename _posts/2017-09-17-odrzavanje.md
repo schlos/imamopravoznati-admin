@@ -23,7 +23,7 @@ Alaveteli smješta dolazne poruke u "Holding pen" ako se njihova `To:` e-mail ad
 Dva su najčešća razloga za to:
 
 * predmet je zatvoren i ne prihvaća nove dolazne poruke
-* u e-mail adresi postoji greška (npr. kada je pošiljatelj pisao email adresu možda je pogrešno napisao jedna ili više znakova u e-mail adresi)
+* u e-mail adresi postoji greška (npr. kada je pošiljatelj pisao email adresu možda je pogrešno napisao jedan ili više znakova u e-mail adresi)
 
 Kada se to dogodi, poruka čeka u holding penu dok je administrator ne premjesti u ispravan predmet, ili je obriše.
 
