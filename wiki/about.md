@@ -1,15 +1,11 @@
----
-layout: page
-title: O priručniku
-permalink: /prirucnik/
----
+# O priručniku
 
 Ovaj priručnik namjenjen je za administratore i moderatore portala [Imamo pravo znati][IPZ] kojeg pokreće platforma Alaveteli. Nastavi čitati ako si administrator portala.
 
-# Priručnik za administratore i moderatore
+## Priručnik za osoblje portala
 Ovaj priručnik podrobnije će objasniti kako se administrira portal, što možeš očekivati i kakve probleme možeš otkriti. Također uključuje primjere dobre prakse iz drugih projekata i drugih zemalja.
 
-## Što uključuje održavanje
+### Što uključuje održavanje
 Ima mnogo općenitih zadataka koji su uključeni u administratorskim dužnostima. Richard, volonter Alaveteli portala za pravo na pristup informacijama u Velikoj Britaniji WhatDoTheyKnow, napisao je [priču na blogu][richard-blog-2009] o tome u 2009. godini.
 
 Ovakve portale održavaju volonteri, poput mene i tebe, koji povremeno izdvajaju dio svog slobodnog vremena da poprave sitne stvari prije nego se nagomila jako puno sitnih stvari za popravak koje će otežati rad portala. Na drugim ovakvim projektima je obično 3 aktivna administratora koji redovno prate promjene na portalu, uz dodatnu pomoć manje aktivnih moderatora koji povremeno pomognu.
@@ -22,7 +18,7 @@ Većina pisane korisničke podrške ne zahtijeva mnogo vremena jer se slučajevi
 
 Tjedni zadaci mogu uključivati:
 
-### Redovna održavanja
+#### Redovna održavanja
 - razvrstavanje pogrešno dostavljenih odgovora (tzv. “Holding Pen”)
 - istraživanje nedostavljenih odgovora (npr. pun inbox, spam itd)
 - promjena statusa na predmeta koji nisu klasificirani
@@ -32,7 +28,7 @@ Tjedni zadaci mogu uključivati:
 - izmjena kontakt podataka za postojeće javne osobe
 - [više...][maintenance]
 
-### Korisnička podrška
+#### Korisnička podrška
 - pogrešno dostavljen e-mail (na team umjesto na pravnu osobu)
 - korisnik treba pomoć pri korištenju portala
 - korisnik koji trebaju savjet vezano uz njihov predmet i zakon
@@ -40,7 +36,7 @@ Tjedni zadaci mogu uključivati:
 - molba za uklanjanje govora mržnje
 - [više...][user-support]
 
-# Terminologija
+## Terminologija
 
 Ovdje koristimo često sljedeće pojmove:
 

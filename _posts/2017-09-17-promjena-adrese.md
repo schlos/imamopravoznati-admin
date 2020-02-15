@@ -1,9 +1,8 @@
 ---
-layout: category-post
-title:  "Promjena e-mail adrese pravne osobe"
-date:   2017-09-17 00:00:00 -0000
-categories: template
+published: true
 ---
+
+# Promjena e-mail adrese pravne osobe
 
 Za početak, ako je ovo pravna osoba, treba [provjeriti stranicu te pravne osobe][1] na [{{ site.portal.name }} portalu][2] jer je možda i tamo potrebno izmijeniti e-mail adresu.
 

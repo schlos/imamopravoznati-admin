@@ -1,9 +1,8 @@
 ---
-layout: category-post
-title:  "Neodgovoreni predmeti"
-date:   2017-09-17 00:00:00 -0000
-categories: template
+published: true
 ---
+
+# Neodgovoreni predmeti
 
 Kada primjetiš da neka pravna osoba ne odgovara na uzastopne poruke, potrebno je istražiti razlog:
 

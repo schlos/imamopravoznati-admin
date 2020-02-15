@@ -1,14 +1,14 @@
 ---
-layout: post
-title:  "Upravljanje predmetima"
-date:   2017-09-29
+published: true
 ---
 
-Alaveteli olakšava korisnicima u slanju pisanih predmeta - zahtjeva za pravo na pristup informacijama i zahtjeva za ponovnu uporabu informacija. Vi kao administrator trebate znati nekoliko stvari koje možete raditi s poslanim predmetom. 
+# Upravljanje predmetima
+
+Alaveteli olakšava korisnicima u slanju pisanih predmeta - zahtjeva za pravo na pristup informacijama i zahtjeva za ponovnu uporabu informacija. Vi kao administrator trebate znati nekoliko stvari koje možete raditi s poslanim predmetom.
 
 Predmet se kreira automatski kada korisnik podnese (i kada je potrebno) potvrdi slanje predmeta. Alaveteli ga tada šalje na email adresu odgovorne pravne osobe i rukuje zaprimljene odgovore po predmetu. Taj se postupak odvija bez bilo kakve intervencije administratora, ali ponekada ćete trebati izmijeniti neke dijelove predmeta, odnosno izmijeniti način na koji će Alaveteli rukovati njime.
 
-# U kojem je statusu predmet?
+## U kojem je statusu predmet?
 
 Svaki predmet prolazi kroz niz promjena stanja koja pokazuju njegov napredak kroz vrijeme. Uobičajeno će novi predmet biti u `waiting_response` (čeka odgovor) statusu dok se nešto ne dogodi što će utjecati na promjenu statusa, na primjer kada predmet zaprimi novi odgovor.
 
@@ -18,7 +18,7 @@ Ako je predmet čekao više od tri tjedna da ga izvorni podnositelj predmeta pre
 
 Kao dio unutarnje obrade zapisa, Alaveteli ne zapisuje samo "opisano stanje" ("described state") predmeta već također bilježi da li se nešto dogodilo od kada je zadnji put ažuriran i kada se nešto izmjeni postavlja predmet u "čeka ocjenu" ("awaiting description") status.
 
-# Zastara predmeta
+## Zastara predmeta
 
 Kada nema aktivnosti na predmetu nekoliko mjeseci (zadano to je postavljeno na šest mjeseci), Alaveteli će automatski promjeniti u tom predmetu **Allow new responses from** (dozvoli nove odgovore od) postavku u `authority_only` (samo izvorna pravna osoba). Bilo koji dolazni email biti će odbačen ako ne dolazi s email adrese pravne osobe kojoj je poslan predmet.
 
@@ -32,7 +32,7 @@ Pogledaj niže više o mjenjanju stvari u predmetu te kako izmjeniti postavke pr
 
 Administrator sustava (system administrator) može izmjeniti broj mjeseci nakon kojih će predmet biti zabranjeno zaprimanje odgovora kroz postavku `RESTRICT_NEW_RESPONSES_ON_OLD_REQUESTS_AFTER_MONTHS` u konfiguraciji sustava putem Linux terminala.
 
-# Mjenjanje stvari u predmetu
+## Mjenjanje stvari u predmetu
 
 Za mjenjanje bilo kojih postavki predmeta, idite u administracijsko sučelje, kliknite na **Requests** (predmeti), zatim kliknite na naslov predmeta kojeg želite mjenjati. Kliknite na **Edit metadata** tipku.
 
@@ -46,7 +46,7 @@ Za mjenjanje bilo kojih postavki predmeta, idite u administracijsko sučelje, kl
 | Jesu li komentari dozvoljeni?       | Postavka **Are comments allowed?** vam omogućava da dopustite ili zabranite dodavanje pribilješki za ovaj predmet.<br>Zapamtite da zabrana dodavanja komentara neće sakriti već postojeće komentare u ovom predmetu — ona samo zabranjuje dodavanje novih komentara. |
 | Tagovi (ključne riječi za pretragu) | Unesite tagove (oznake, ključne riječi) odvojene razmacima koje se mogu logički povezati uz neki predmet. Tag može biti jednostavna riječ, par ključa i vrijednosti (key-value pair, koristite dvotočku za odjeljivanje, poput `key:value`).<br>Tagovi se mogu koristiti prilikom pretrage. Oni su korisni i korisnicima i administratorima ako su predmeti označeni korisnim tagovima, zato jer će to pomoći prilikom pretrage specifičnih predmeta - posebno ako stranica ima mnogo predmeta u bazi podataka.<br>Iako su malo kompleksnije od tagova na predmetima, kategorije isto koriste tagove: pogledajte [više o tagovima](#TBD2). |
 
-# Ponavljanje slanja predmeta ili slanje na drugog primatelja
+## Ponavljanje slanja predmeta ili slanje na drugog primatelja
 
 Ako ste ispravili email adresu pravne osobe, možete ponoviti slanje postojećeg predmeta istoj pravnoj osobi na novu email adresu. Ili u drugom slučaju, korisnik je možda poslao predmet krivoj pravnoj osobi. U tom slučaju, možete izmjeniti pravnu osobu na koju je naslovljen predmet i tada ponoviti slanje čime će biti poslano na pravilnog primatelja.
 
@@ -58,18 +58,18 @@ Za slanje predmeta nekoj drugoj pravnoj osobi, idite na administracijsko sučelj
 
 Sada kliknite na tipku **Move request to authority**. Vidjeti ćete obavijest na vrhu stranice da je predmet premješten. Sada možete ponoviti slanje na novog primatelja kako je gore objašnjeno.
 
-# Skrivanje predmeta
+## Skrivanje predmeta
 
 Možete sakriti cijele predmete. Tipično, ovo ćete koristiti kada podnesak nije valjan (na primjer kada ne pripada pod zakonsku definiciju predmeta za vaš portal), ili kada sadrži elemente zabranjene zakonom (na primjer govor mržnje).
 
-Idite u administracijsko sučelje, kliknite na **Requests**, zatim kliknite na naslov predmeta. Možete sakriti na dva načina: 
+Idite u administracijsko sučelje, kliknite na **Requests**, zatim kliknite na naslov predmeta. Možete sakriti na dva načina:
 
 - Sakrijte predmet i obavijestite podnositelja predmeta
 - Sakrijte predmet bez obaviještavanja podnositelja predmeta
 
 Odgovori na sakriveni predmet biti će prihvaćeni uobičajeno, i oni će biti sakriveni kao i cijeli predmet.
 
-## Skrivanje predmeta i obaviještavanje podnositelja
+### Skrivanje predmeta i obaviještavanje podnositelja
 
 Spustite se do *Actions* dijela na administracijskoj stranici predmeta. Izaberite od ponuđenih mogućnosti kraj **Hide the request and notify the user**:
 
@@ -78,7 +78,7 @@ Spustite se do *Actions* dijela na administracijskoj stranici predmeta. Izaberit
 
 Izborom jedne od ovih mogućnosti prikazati će obrazac za email poruku. Po potrebi izmjenite tekst email poruke koji će biti poslan korisniku, obaviještavajući korisnika što ste učinili i s kojim razlogom. Kada ste gotovi, kliknite **Hide request** tipku.
 
-## Skrivanje predmeta bez obaviještavanja podnositelja
+### Skrivanje predmeta bez obaviještavanja podnositelja
 
 > Osim skrivanja predmeta ovaj postupak možete koristiti ako želite da predmet bude vidljiv samo podnositelju.
 
@@ -87,11 +87,11 @@ Na administracijskoj stranici predmeta u dijelu *Request metadata*, kliknite na 
 - `requester_only` - samo će podnositelj moći vidjeti stranicu predmeta
 - `hidden` - nitko neće vidjeti stranicu predmeta, osim administratora.
 
-> Ako želite sakriti predmet, nemojte izabrati `backpage` kao vidljivost. `backpage` postavka skriva predmet sa stranica s listama i pretrage pa je ustvari predmet vidljiv svatkome tko ima URL tog predmeta ali ne zabranjuje pristup tom predmetu. 
+> Ako želite sakriti predmet, nemojte izabrati `backpage` kao vidljivost. `backpage` postavka skriva predmet sa stranica s listama i pretrage pa je ustvari predmet vidljiv svatkome tko ima URL tog predmeta ali ne zabranjuje pristup tom predmetu.
 
 Kada ste gotovi, kliknite na **Save changes** tipku na dnu dijela *Edit metadata*. Podnositelju neće biti poslana nikakava obavijest u promjenama koje napravite na predmetu.
 
-# Brisanje predmeta
+## Brisanje predmeta
 
 Predmet možete obrisati u potpunosti. Tipično, ovo činite samo u izvanrednim slučajevima kada drugi postupci ne mogu riješiti problem. Ako obrišete predmet, svi odgovori koji su zaprimljeni za taj predmet biti će isto obrisani.
 

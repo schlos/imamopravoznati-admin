@@ -1,9 +1,8 @@
 ---
-layout: category-post
-title:  "Skrivanje predmeta"
-date:   2017-09-17 00:00:00 -0000
-categories: template
+published: true
 ---
+
+# Skrivanje predmeta
 
 Kada predmet sadrži previše osobnih podataka ili postoji mogućnost da će se u odgovoru pravne osobe nalaziti osobni podaci:
 

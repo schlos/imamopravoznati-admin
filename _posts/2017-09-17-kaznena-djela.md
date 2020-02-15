@@ -1,9 +1,8 @@
 ---
-layout: category-post
-title:  "Govor mržnje"
-date:   2017-09-17 00:00:00 -0000
-categories: template
+published: true
 ---
+
+# Govor mržnje
 
 To može biti klevetanje, uvreda, teško sramoćenje, govor protiv časti i ugleda, itd.
 

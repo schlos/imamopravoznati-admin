@@ -1,9 +1,8 @@
 ---
-layout: category-post
-title:  "Poruka za pravnu osobu je poslana administratorima"
-date:   2017-09-17 00:00:00 -0000
-categories: template
+published: true
 ---
+
+# Poruka za pravnu osobu je poslana administratorima
 
 To su e-mailovi koje su korisnici zabunom poslali na adresu tima za podršku u želji da kontaktiraju drugu pravnu osobu.
 

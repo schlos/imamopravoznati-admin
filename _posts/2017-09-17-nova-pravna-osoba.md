@@ -1,9 +1,8 @@
 ---
-layout: category-post
-title:  "Predložak za dodavanje nove pravne osobe"
-date:   2017-09-17 00:00:00 -0000
-categories: template
+published: true
 ---
+
+# Predložak za dodavanje nove pravne osobe
 
 Kada je potrebno verificirati dodavanje nove pravne osobu, slijedi korake opisane na [Kako dodati novu pravu osobu][add-new].
 

@@ -1,9 +1,8 @@
 ---
-layout: category-post
-title:  "Promjena statusa predmeta"
-date:   2017-09-17 00:00:00 -0000
-categories: template
+published: true
 ---
+
+# Promjena statusa predmeta
 
 Ponekada druge osobe nakon što primjete da status nekog predmeta ne reflektira pravi status traže da promjenimo status predmeta:
 

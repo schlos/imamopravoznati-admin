@@ -1,10 +1,10 @@
 ---
-layout: post
-title:  "Redovno održavanje"
-date:   2017-09-17
+published: true
 ---
 
-### Administratorske ovlasti i administrativno sučelje
+# Redovno održavanje
+
+## Administratorske ovlasti i administrativno sučelje
 
 Administrativno sučelje se nalazi na URL putanji `/admin`. Tom dijelu portala mogu pristupati samo korisnici koji su administratori.
 
@@ -16,7 +16,7 @@ Uz ovlast pristupanja administrativnom sučelju portala, korisnici koji su admin
 * vidjeti predmete koji su potpuno sakriveni
 * otvoriti "admin" linkove koji se nalaze na stranici individualnih predmeta, komentara, korisnika i pravnih osoba.
 
-### Poruke u holding penu
+## Poruke u holding penu
 
 Alaveteli smješta dolazne poruke u "Holding pen" ako se njihova `To:` e-mail adresa ne može automatski asocirati s postojećim predmetom u sustavu.
 
@@ -33,21 +33,21 @@ Da to učiniš, ulogiraj se u administrativno sučelje. Ako postoji poruka u hol
 
 Kada otvoriš detalje neke poruke u holding penu, vidjeti ćeš da je Alaveteli pokušao pronaći pravilan predmet za tu poruku. Ako je točno pretpostavio, i ako je taj odgovor dio pretostavljenog predmeta, *title_url* će biti će popunjen - klikni tipku **Redeliver to another request**.
 
-Ako Alaveteli nije mogao pretpostaviti točan predmet, ili ako je krivo pretpostavio, pogledaj u sirovoj e-mail poruci `To:` adresu i sadržaj poruke. Sada trebaš zaključiti kojem predmetu ono pripada. Oblik e-mail adrese koju Alaveteli generira izgleda ovako `[INCOMING_EMAIL_PREFIX]+request-[id]-[idhash]@[DOMAIN]` odnosno `foi+request-3-691c8388@example.com`. 
+Ako Alaveteli nije mogao pretpostaviti točan predmet, ili ako je krivo pretpostavio, pogledaj u sirovoj e-mail poruci `To:` adresu i sadržaj poruke. Sada trebaš zaključiti kojem predmetu ono pripada. Oblik e-mail adrese koju Alaveteli generira izgleda ovako `[INCOMING_EMAIL_PREFIX]+request-[id]-[idhash]@[DOMAIN]` odnosno `foi+request-3-691c8388@example.com`.
 
 U tom obliku, prvi broj nakon dijela `request-` je redni broj (id) predmeta. Možeš potražiti predmete u administrativnom sučelju putem linka **Requests** u admin toolbaru. Kada pronađeš pravilan predmet, kopiraj jedno od dvoje: *id* ili *url_title*.
 
 > **Kako pronaći *id* ili *url_title* nekog predmeta?**
-> 
+>
 >* *id* predmeta nalazi se nakon `/show/` u URL-u predmeta u administrativnom sučelju. Na primjer, ako je URL `/admin/request/show/118`, tada je *id* `118`. Slično tome ako želiš u administrativnom sučelju vidjeti detalje predmeta s *id*-jem `119`, možeš ga pogledati na URL-u `/admin/request/show/119`.
-> 
+>
 >* *url_title* nekog predmeta nalazi se nakon `/request/` u URL-u kada gledaš neki predmet na javnoj stranici na portalu vidljivu korisnicima. Na URL-u `/request/how_many_vehicles`, *url_title* je `how_many_vehicles`.
 
 Sada kada ste identificirali predmet kojem pripada poruka, vratite se na holding pen stranicu. Pod "Actions" dolazne poruke umetnite *id* ili *url_title*. Kliknite na tipku **Redeliver to another request**.
 
 Ta poruka je sada asocirana s pravilnim predmetom. Više se ne nalazi u holding penu, već se prikazuje ispod pravilnog predmeta na javnom dijelu stranice s predmetom.
 
-### Odbacivanje spama koji dolazi u holding pen
+## Odbacivanje spama koji dolazi u holding pen
 
 Alaveteli sadrži listu spam adresa. Bilo koja dolazna poruka koja se nalazi na toj listi, a koja bi inače bila zaprimljena u holding pen, bit će odbijena te se neće prikazati u administracijskom sučelju.
 
@@ -61,7 +61,7 @@ Za dodavanje e-mail adrese na listu spam adresa, potrebno je kopirati e-mail adr
 
 Unutar holding pena moguće je vidjeti popis e-mailova koje je potrebno pregledati – kliknite na naslov e-maila kako bi ste vidjeli cijelu poruku i njene detalje. Kopirajte `To:` e-mail adresu i pod Actions kliknite na link **Spam Addresses**. Zalijepite e-mail adresu u područje unosa teksta i kliknite tipku **Add Spam Address**.
 
-Možete vidjeti listu spam adresa (odnosno, svih poznatih ciljanih-spam e-mail adresa) u bilo koje vrijeme putem administracijskog sučelja preko `/admin/spam_addresses`. 
+Možete vidjeti listu spam adresa (odnosno, svih poznatih ciljanih-spam e-mail adresa) u bilo koje vrijeme putem administracijskog sučelja preko `/admin/spam_addresses`.
 
 Bilo koja e-mail adresa se može maknuti sa ove liste klikom na tipku **Remove** pokraj e-maila. Naravno, ovo neće obnoviti poruke koje su bile odbijene, ali Alaveteli neće odbiti nove poruke poslane na ovu adresu.
 
@@ -75,7 +75,7 @@ Postoje tri načina na koja se mogu promijeniti podaci pravnih osoba:
 * *Edit* (Uređivanje) — nakon stvaranja nove pravne osobe, e-mail adresa i drugi podaci se mogu uređivati u administratorskom sučelju. Potrebno je kliknuti na link **Authorities**, pronaći željenu pravnu osobu te kliknuti na **edit**.
 * *Upload* (Slanje) — moguće je kreirati ili urediti više pravnih osoba istovremeno uploadanjem datoteke koja sadrži podatke u vrijednostima koje su međusobno odijeljene zarezom, tj. u CSV formatu. Ovo se može koristiti za stvaranje novih pravnih osoba, ali i za uređivanje već postojećih pravnih osoba. Potrebno je kliknuti na **Authorities** te zatim na tipku **Import from CSV**. Pogledajte ostatak ovog poglavlja priručnika za više detalja vezanih za slanje datoteke.
 
-Mogućnost uploada može biti od velike koristi – posebno prilikom formiranja Alaveteli stranice – jer je čest slučaj da se podaci, poput kontakt podataka pravnih osoba, prikupljaju u tablicama. Mogućnost uploada čini jednostavnim inicijalan upload podataka na stranicu. Također omogućava ažuriranje podataka ukoliko se podaci promijene nakon što su uploadani. 
+Mogućnost uploada može biti od velike koristi – posebno prilikom formiranja Alaveteli stranice – jer je čest slučaj da se podaci, poput kontakt podataka pravnih osoba, prikupljaju u tablicama. Mogućnost uploada čini jednostavnim inicijalan upload podataka na stranicu. Također omogućava ažuriranje podataka ukoliko se podaci promijene nakon što su uploadani.
 
 Kako bi se podaci u tablici iskoristili za ažuriranje pravnih osoba na {{ site.portal.name }}, potrebno ih je izvesti, tj. kliknuti na Export tablice u CSV formatu. Ovo je datoteka koju je kasnije moguće modificirati i uploadati.
 
@@ -121,20 +121,20 @@ Ukoliko želite uploadati CSV datoteku, potrebno je ulogirati se u administrativ
 Specificirajte **What to do with existing tags?** s jednom od slijedećih opcija:
 - *zamijeni postojeće oznake novima* - Za svaku pravnu osobu koju se ažurira, sve postojeće oznake će biti maknute i zamijenjene novima iz CSV datoteke
 - *dodaj nove oznake postojećima* - Postojeće oznake će ostati nepromijenjene, a oznake iz CSV datoteke će biti nadodane.
-  
+
 Možete dodati **Tag to add entries to / alter entries for**. Ta oznaka će biti primijenjena na svaku pravnu osobu koja se uvozi iz CSV datoteke.
 
 Predlažemo da prvo kliknete na probno pokretanje **Dry run** - ono će proći kroz datoteku i prikazati promijene koje će napraviti u bazi podataka, bez promijene podataka. Provjerite izvještaj: on prikazuje do kojih promjena bi došlo da su podaci zaista učitani nakon čega slijedi poruka:
 
 `Dry run was successful, real run would do as above.`
 
-Ukoliko ne vidite ništa iznad tog reda, to znači da probno pokretanje nije uzrokovalo predložene promijene. 
+Ukoliko ne vidite ništa iznad tog reda, to znači da probno pokretanje nije uzrokovalo predložene promijene.
 
 Ukoliko je sve bilo OK prilikom probnog pokretanja, kliknite **Upload**. Ovo će ponoviti proces, ali ovaj put će napraviti promijene u bazi podataka stranice. Ako uočite grešku poput `invalid email`, moguće da je e-mail adresa krivo unesena ili (vjerojatnije) da CSV datoteka ne sadrži stupac `request_email`.
 
 ### Kreiranje tablice s postojećim pravnim osobama
 
-Možete lako napraviti tablicu koja sadrži pravne osobe koje već postoje na stranici. Ako kombiniranirate sa mogućnošću uploada opisanu iznad ovo može biti praktičniji način ažuriranja podataka od uređivanja podataka u administracijskom sučelju. 
+Možete lako napraviti tablicu koja sadrži pravne osobe koje već postoje na stranici. Ako kombiniranirate sa mogućnošću uploada opisanu iznad ovo može biti praktičniji način ažuriranja podataka od uređivanja podataka u administracijskom sučelju.
 
 Kako bi izvezli postojeće podatke pravnih osoba, potrebno je biti na naslovnoj stranici (ne administracijskoj) te klikniti **View Authorities**. Zatim kliknite **List of all authorities (CSV)** kako bi dobili CSV datoteku u kojoj možete raditi promijene korištenjem programa za uređivanje tablica te ju uploadati prema gornjim uputama.
 
@@ -142,15 +142,15 @@ Bit će potrebno maknuti neke stupce koji nisu podržani u uvozu podataka te mo�
 
 >Kada izvozi pravne osobe u CSV formatu, Alaveteli nikada ne uključuje pravne osobe koje imaju oznaku `site_administration`. Ako pokrećete razvojni server sa inicijalnim uzorkom podataka, jedini primjer pravne osobe pod nazivom “Internal admin authority" ima ovu oznaku. Stoga, ako kliknete **List of all authorities (CSV)**, dobit ćete CSV datoteku koja ne sadrži podatke. Morate dodati vlastite pravne osobe (bez oznake `site_administration`) prije nego ih možete izvesti.
 
-### Zabrana pristupa korisniku
+## Zabrana pristupa korisniku
 
-U slučaju objavljivanja neželjenih sadržaja, korisniku se može zabraniti pristup stranici (na primjer tzv. *spammeru* ili *trolleru*). Potrebno je prijaviti se u administracijsko sučelje na `/admin` te u gornjem djelu ekrana kliknuti na **Users**. 
+U slučaju objavljivanja neželjenih sadržaja, korisniku se može zabraniti pristup stranici (na primjer tzv. *spammeru* ili *trolleru*). Potrebno je prijaviti se u administracijsko sučelje na `/admin` te u gornjem djelu ekrana kliknuti na **Users**.
 
 Pronađite korisnika kojem želite zabraniti pristup stranici i kliknite na njegovo ime te potom na **Edit**.
 
 Potrebno je objasniti zašto je korisniku zabranjen pristup stranici upisom određenog teksta u polje *Ban text*. Imajte na umu da je taj tekst javno dostupan na profilu korisnika. Zatim kliknite na **Save** i korisniku će biti zabranjen pristup stranici (obično se kaže da je korisnik *banan*).
 
-### Brisanje korisnika
+## Brisanje korisnika
 
 Korisnik se ne može u potpunosti obrisati sa Alaveteli stranice, ali ako zaista trebate označiti korisnički profil suvišnim, možete to napraviti na slijedeći način:
 
@@ -160,23 +160,23 @@ Korisnik se ne može u potpunosti obrisati sa Alaveteli stranice, ali ako zaista
 - pronaći *Url name* korisničkog računa i postaviti njegovu e-mail adresu da se poklapa s njime, pomoću domene `invalid`, na primjer `url_name@invalid`
 - nakon što ste kliknuli **Save**, prijavite se kao taj korisnik klikom na gumb **Log in as…**
 - kliknite na **Change your password** te potom potvrdite lozinku klikom na **Send me the email** — kolikom na taj link, poslat će se e-mail sa linkom za potvrdu lozinke, ali e-mail poruka neće nigdje otići (jer je e-mail domena `@invalid`)… ali, možete pristupiti tom linku odlaskom na profilnu stranicu korisnika putem administracijskog sučelja te klikom na link *e-mail token* u njihovom posljednjem *Post redirect-u*
-- promijeni lozinku korisnika u nasumičan niz 
+- promijeni lozinku korisnika u nasumičan niz
 - ako je korisniku zabranjen pristup korisničkom računu (vidi gore), promijenite tekst u polju *Ban text* u nešto neutralno
 
-### Anonimnost korisnika
+## Anonimnost korisnika
 
-Ponekad je nužno ukloniti detalje korisnika sa Alaveteli stranice kako se ti detalji ne bi pronašli preko internetskih pretraživača. Kako bi se to napravilo, prvo slijedite korake koji su isti kao i prilikom brisanja korisnika, zamjenjujući *name* sa `[ime uklonjeno]`. Zatim, potrebno je ukloniti bilo kakve reference na korisnika sa stranice. Ukoliko imate puno pritužbi na stranici, ovo može biti veliki posao. 
+Ponekad je nužno ukloniti detalje korisnika sa Alaveteli stranice kako se ti detalji ne bi pronašli preko internetskih pretraživača. Kako bi se to napravilo, prvo slijedite korake koji su isti kao i prilikom brisanja korisnika, zamjenjujući *name* sa `[ime uklonjeno]`. Zatim, potrebno je ukloniti bilo kakve reference na korisnika sa stranice. Ukoliko imate puno pritužbi na stranici, ovo može biti veliki posao.
 
-- Možete dodati cenzuru kako bi ste uklonili ime korisnika sa pritužbi te zamijeniti ime sa `[ime uklonjeno]`. Ovo zahtijeva čitanje svih pritužbi. Potražite imena (i možda skraćenice) u referentnim brojevima itd. Možda će biti nužno doraditi pravila cenzure kako bi ste osigurali da su sve forme imena obuhvaćene cenzurom. Pogledajte više o uređivanju. 
+- Možete dodati cenzuru kako bi ste uklonili ime korisnika sa pritužbi te zamijeniti ime sa `[ime uklonjeno]`. Ovo zahtijeva čitanje svih pritužbi. Potražite imena (i možda skraćenice) u referentnim brojevima itd. Možda će biti nužno doraditi pravila cenzure kako bi ste osigurali da su sve forme imena obuhvaćene cenzurom. Pogledajte više o uređivanju.
 - Provjerite komentare te ih po potrebi uredite radi uklanjanje imena.
 
-### Omogućivanje korisniku da podnese više predmeta
+## Omogućivanje korisniku da podnese više predmeta
 
 Alaveteli ima postavke konfiguracije za maksimalan broj predmeta po korisniku po danu `MAX_REQUESTS_PER_USER_PER_DAY`, a koji određuje maksimalan broj predmeta koje običan korisnik može poslati tijekom jednog dana. Ukoliko korisnik tijekom 24 sata pokuša poslati veći broj predmeta od tog broja, dobit će poruku koja će ga obavijestiti o dosezanju limita u broju predmeta, ali i potaknuti da nas kontaktiraju putem kontakt podataka ako smatra da ima dobar razlog tražiti da se ograničenje broja predmeta poveća.
 
 Ukoliko želite povećati limit za podnošenje predmeta za određenog korisnika, potrebno je pristupiti administracijskom sučelju, kliknuti na **Users** te potom na ime odabranog korisnika. Zatim je potrebno kliknuti na gumb **Edit** i označiti kućicu **No rate limit** te kliknuti **Save**.
 
-### Skupni predmeti
+## Skupni predmeti
 
 Ponekad jedan korisnik želi poslati pritužbu većem broju pravnih osoba što se naziva skupnim predmetima (*batch requests*). U pravilu, Alaveteli ne dozvoljava korisnicima slanje skupnih predmeta.
 
@@ -186,36 +186,36 @@ Ponekad jedan korisnik želi poslati pritužbu većem broju pravnih osoba što s
 >
 > Korisnici mogu izabrati koje pravne osobe će uključiti u skupne predmete. Također, mogu poslati predmet svakoj pravnoj osobi na stranici. Preporuča se ovo dozvoliti samo korisnicima kojima vjerujete.
 
-Kako bi omogućili slanje skupnih predmeta, system administrator prvo treba postaviti `ALLOW_BATCH_REQUESTS` u `true` u general.yml konfiguraciji aplikacije. 
+Kako bi omogućili slanje skupnih predmeta, system administrator prvo treba postaviti `ALLOW_BATCH_REQUESTS` u `true` u general.yml konfiguraciji aplikacije.
 
-Ova postavka još nikome ne dozvoljava slanje skupnih predmeta. Slanje skupnih predmeta se konfigurira zasebno za svakog pojedinog korisnika kojemu želite omogućiti ovu opciju. Kako bi to učinili, potrebno je otići na administracijsko sučelje, kliknuti na **Users** te zatim na ime korisnika kojem želite omogućiti slanje skupnih pritužbi. Kliknite gumb **Edit** i označite kućicu **Can make batch requests** i kliknite **Save**. 
+Ova postavka još nikome ne dozvoljava slanje skupnih predmeta. Slanje skupnih predmeta se konfigurira zasebno za svakog pojedinog korisnika kojemu želite omogućiti ovu opciju. Kako bi to učinili, potrebno je otići na administracijsko sučelje, kliknuti na **Users** te zatim na ime korisnika kojem želite omogućiti slanje skupnih pritužbi. Kliknite gumb **Edit** i označite kućicu **Can make batch requests** i kliknite **Save**.
 
 Ako ste korisniku omogućili sanje skupnih predmeta, kada krenu slati predmete, uz kućicu gdje mogu izabrati pravnu osobu, vidjet će link  za slanje skupnih predmeta (*make a batch request*). Kada je pritužba poslana, Alaveteli će napraviti stranicu predmeta s popisom predmeta poslanih svakoj pravnoj osobi kao da je korisnik slao individualne predmete.
 
-### Ponovno slanje predmeta ili slanje predmeta drugoj pravnoj osobi
+## Ponovno slanje predmeta ili slanje predmeta drugoj pravnoj osobi
 
 Ako ste ispravili e-mail adresu pravne osobe, možete ponovno poslati postojeći predmet toj pravnoj osobi na novi e-mail. Također, korisnik može poslati pritužbu krivoj pravnoj osobi. U tom slučaju, možete promijeniti pravnu osobu u pritužbi te ponovno poslati pritužbu pravnoj osobi. Za upute pogledajte *ponovno slanje pritužbe ili slanje pritužbe drugoj pravnoj osobi*.
 
-### Skrivanje predmeta
+## Skrivanje predmeta
 
 Ako predmet sadrži uznemiravajući, odnosno neprikladan sadržaj te ako nije u skladu sa Zakonom o zaštiti potrošača, može se sakriti. Skriveni predmet ostaje vidljiv podnositelju pritužbe i drugim administratorima. Za upute, pogledajte *[skrivanje predmeta][1]*.
 
 Skriveni predmeti mogu normalno zaprimiti odgovor, ali će odgovor također biti skriven.
 
-### Brisanje predmeta
+## Brisanje predmeta
 
-Predmet se može obrisati sa portala {{ site.portal.name }}. Za detaljnije upute, pogledajte [brisanje predmeta][2]. 
+Predmet se može obrisati sa portala {{ site.portal.name }}. Za detaljnije upute, pogledajte [brisanje predmeta][2].
 Odgovori na obrisane predmete će biti zaprimljeni u holding pen.
 
-### Skrivanje primljene ili poslane poruke
+## Skrivanje primljene ili poslane poruke
 
 Ponekad je potrebno sakriti određenu primljenu ili poslanu poruku, posebno u slučaju ako je netko u poruku uključio osobne podatke. To je moguće napraviti u administracijskom sučelju poruke.
 
-Administracijskom sučelju poruke možete pristupiti putem linka iz dijela “Outgoing messages” ili “Incoming messages” sa administraciske stranice specifičnog predmeta ili direktno sa javne stranice predmeta klikom na link **admin** u poruci. Kada pristupite administracijskom sučelju poruke, možete promijeniti njeno isticanje (*prominence*). 
+Administracijskom sučelju poruke možete pristupiti putem linka iz dijela “Outgoing messages” ili “Incoming messages” sa administraciske stranice specifičnog predmeta ili direktno sa javne stranice predmeta klikom na link **admin** u poruci. Kada pristupite administracijskom sučelju poruke, možete promijeniti njeno isticanje (*prominence*).
 
 Postavite **prominence** u **hidden** kako bi sakrili poruku od svih osim od administratora ili u **requester_only** kako bi omogućili da poruku vidi podnositelj predmeta (i administratori). Ukoliko možete, dodajte tekst u polje **Reason for prominence**. To će biti prikazano na mjestu gdje se nalazila poruka na stranici pritužbe kako bi se znalo zašto je poruka sakrivena.
 
-### Brisanje primljene ili poslane poruke
+## Brisanje primljene ili poslane poruke
 
 Primljene i poslane poruke također mogu biti potpuno obrisane. Ovo je obično primjenjivo samo u slučaju sadržaja, poput spam poruka, kojima se neće više trebati pristupati. Inače, predlažemo sakrivanje poruka.
 
@@ -227,12 +227,12 @@ Kada pristupite administracijskom sučelju poruke, možete je obrisati korišten
 
 > Koristite s oprezom!
 
-### Uređivanje poslane poruke
+## Uređivanje poslane poruke
 
 U nekim slučajevima je potrebno urediti poslanu poruku. Primjerice, ako je korisnik u nju slučajno uključio privatne informacije koje ne želi javno objaviti na stranici. Možete slijediti jedan od **admin** linkova sa javne stranice predmeta ili pronaći predmet u administracijskom sučelju putem izbornika **Requests**. Spustite se do sekcije "Outgoing Messages" i kliknite **Edit**. Na slijedećoj stranici možete urediti poruku te snimiti nastale promjene. Izmijenjena verzija će se pojaviti na Alaveteli stranici, a neizmijenjena verzija je već poslana pravnoj osobi.
 
-### Uređivanje ili skrivanje komentara
-	
+## Uređivanje ili skrivanje komentara
+
 Komentari su jednostavniji od zahtjeva ili poruka jer postoje samo na stranici predmeta, tj. nisu poslani nigdje. Ako predmet ima komentare, oni će biti prikazani u administracijskom sučelju tog predmeta. Spustite se niže na stranici do popisa komentara, a svaki pojedini komentar možete uređivati klikom na njegov naslov.
 
 Predlažemo da vaše promijene učinite eksplicitnima. Primjerice, ako uklanjate osobne podatke, umjesto da ih samo obrišete, radije ih zamijenite sa nečim što indicira što je uklonjeno: `[uklonjena je osobna informacija]`.
@@ -243,7 +243,7 @@ Možete sakriti (ili otkriti) komentar odabirom odgovarajuće stavke, pod nazivo
 
 Također je moguće sakriti (ili otkriti) komentare u skupnim predmetima. Spustite se na donji dio stranice do popisa komentara u administracijskom sučelju predmeta i označite kućice za one komentare koje želite izmijeniti. Zatim kliknite **Hide selected** ili **Unhide selected**.
 
-### Skrivanje određenog teksta iz predmeta upotrebom cenzure
+## Skrivanje određenog teksta iz predmeta upotrebom cenzure
 
 Cenzuriranje se može odnositi na predmet ili na korisnika. Ta pravila definiraju dijelove teksta koji će se odstraniti iz predmeta i svih povezanih datoteka, npr. prilozi u primljenim porukama; ili iz svih predmeta povezanih s određenim korisnikom, te tekst koji zamijenjuje cenzurirani dio teksta.
 

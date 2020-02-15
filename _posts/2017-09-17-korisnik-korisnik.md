@@ -1,9 +1,8 @@
 ---
-layout: category-post
-title:  "Korisnik želi kontaktirati drugog korisnika"
-date:   2017-09-17 00:00:00 -0000
-categories: template
+published: true
 ---
+
+# Korisnik želi kontaktirati drugog korisnika
 
 Ukoliko korisnik želi kontaktirati drugog korisnika, o tome ga je moguće obavijestiti na slijedeći način:
 
