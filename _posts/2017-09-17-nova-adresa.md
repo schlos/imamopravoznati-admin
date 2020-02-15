@@ -1,5 +1,6 @@
 ---
 published: true
+title: Promjena e-mail adrese pravne osobe
 ---
 
 # Promjena e-mail adrese pravne osobe

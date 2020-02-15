@@ -1,5 +1,5 @@
 ---
-published: true
+title: Redovno održavanje
 ---
 
 # Redovno održavanje

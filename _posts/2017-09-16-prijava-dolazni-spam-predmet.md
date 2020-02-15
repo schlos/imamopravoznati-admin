@@ -1,5 +1,6 @@
 ---
 published: true
+title: Prijava o zaprimanju spama u predmetu
 ---
 
 # Prijava o zaprimanju spama u predmetu

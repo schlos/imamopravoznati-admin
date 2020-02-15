@@ -1,5 +1,6 @@
 ---
 layout: "git-wiki-bs-github"
+published: false
 ---
 
 # Theme: Github
@@ -24,4 +25,3 @@ defaults:
     values:
       layout: "git-wiki-bs-github"
 ```
-

@@ -1,5 +1,6 @@
 ---
 published: true
+title: Korisnik želi kontaktirati drugog korisnika
 ---
 
 # Korisnik želi kontaktirati drugog korisnika

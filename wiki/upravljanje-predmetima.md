@@ -1,5 +1,5 @@
 ---
-published: true
+title: Upravljanje predmetima
 ---
 
 # Upravljanje predmetima

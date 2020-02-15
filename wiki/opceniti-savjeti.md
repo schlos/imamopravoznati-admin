@@ -1,5 +1,5 @@
 ---
-published: true
+title: Općeniti savjeti
 ---
 
 # Općeniti savjeti

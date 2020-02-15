@@ -1,5 +1,6 @@
 ---
 published: true
+title: Predložak za dodavanje nove pravne osobe
 ---
 
 # Predložak za dodavanje nove pravne osobe

@@ -1,5 +1,6 @@
 ---
 layout: "git-wiki-bs-lux"
+published: false
 ---
 
 # Theme: Lux
@@ -24,4 +25,3 @@ defaults:
     values:
       layout: "git-wiki-bs-lux"
 ```
-

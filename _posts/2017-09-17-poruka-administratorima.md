@@ -1,5 +1,6 @@
 ---
 published: true
+title: Poruka za pravnu osobu je poslana administratorima
 ---
 
 # Poruka za pravnu osobu je poslana administratorima

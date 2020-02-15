@@ -1,5 +1,6 @@
 ---
 published: true
+title: Kako dodati novu pravnu osobu
 ---
 
 # Kako dodati novu pravnu osobu

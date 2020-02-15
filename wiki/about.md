@@ -1,3 +1,7 @@
+---
+title: O priručniku
+---
+
 # O priručniku
 
 Ovaj priručnik namjenjen je za administratore i moderatore portala [Imamo pravo znati][IPZ] kojeg pokreće platforma Alaveteli. Nastavi čitati ako si administrator portala.

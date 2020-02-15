@@ -1,3 +1,7 @@
+---
+published: false
+---
+
 # Theme: Git-Wiki Default
 
 
@@ -22,4 +26,3 @@ defaults:
 ```
 
 **NOTE:** it's the default configuration available in _config.yml
-

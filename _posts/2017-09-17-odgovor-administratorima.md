@@ -1,5 +1,6 @@
 ---
 published: true
+title: Odgovor pravnoj osobi je poslan administratorima
 ---
 
 # Odgovor pravnoj osobi je poslan administratorima

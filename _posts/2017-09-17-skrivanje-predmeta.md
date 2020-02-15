@@ -1,5 +1,6 @@
 ---
 published: true
+title: Skrivanje predmeta
 ---
 
 # Skrivanje predmeta

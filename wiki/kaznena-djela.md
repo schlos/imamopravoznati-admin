@@ -1,5 +1,5 @@
 ---
-published: true
+title: Govor mržnje
 ---
 
 # Govor mržnje

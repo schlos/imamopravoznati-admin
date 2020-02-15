@@ -1,5 +1,6 @@
 ---
 published: true
+title: Promjena statusa predmeta
 ---
 
 # Promjena statusa predmeta
