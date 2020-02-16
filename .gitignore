@@ -1,0 +1,13 @@
+# from parent
+_site
+Gemfile.*.lock
+.sass-cache
+
+# Ignore Mac DS_Store files
+# from https://github.com/nodejs/node/pull/14721
+.DS_Store
+
+# OR
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store

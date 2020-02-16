@@ -1,9 +1,9 @@
 ---
-layout: category-post
-title:  "Zaštita podataka"
-date:   2017-09-17 00:00:00 -0000
-categories: template
+published: true
+title: Korisnik traži zaštitu podataka
 ---
+
+# Korisnik traži zaštitu podataka
 
 Kada korisnik zatraži uklanjanje osobnih podataka ili osjetljivih osobnih podataka, npr. ako korisnik želi da uklonimo njegovo ime kompletno sa stranice:
 

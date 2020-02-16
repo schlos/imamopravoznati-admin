@@ -1,9 +1,9 @@
 ---
-layout: category-post
-title:  "Tijelo traži dostavu adrese stanovanja"
-date:   2017-12-21 00:00:00 -0000
-categories: template
+published: true
+title: Tijelo traži dostavu adrese stanovanja
 ---
+
+# Tijelo traži dostavu adrese stanovanja
 
 Kada tijelo javne vlasti traži da korisnik prava na pristup informacijama dostavi poštansku adresu:
 

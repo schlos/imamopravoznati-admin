@@ -21,7 +21,8 @@ The following is a set of guidelines for contributing to this repository, which 
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the Code for Croatia [Code of Conduct](https://github.com/codeforcroatia/codeofconduct). By participating, you are expected to uphold this code.
+Read carefully this project [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
+Everyone participating in Code for Croatia are governed by the Code for Croatia [Code of Conduct](https://github.com/codeforcroatia/codeofconduct). By participating, you are expected to uphold this code.
 
 ## I don't want to read this whole thing I just have a question!!!
 
@@ -128,6 +129,12 @@ Both issue lists are sorted by total number of comments. While not perfect, numb
 
 ### Pull Requests
 
+If you want to send a pull request to our project and github editor is not enough, then you can:
+1. Fork or copy this repository
+2. Clone on your local environment and run your git-wiki installation following [this guide](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
+3. Do your changes, push on your fork and create a Pull Request for us.
+
+Pull Request Netiquette:
 * Fill in [the required template](PULL_REQUEST_TEMPLATE.md)
 * Do not include issue numbers in the PR title
 * Include screenshots and animated GIFs in your pull request whenever possible

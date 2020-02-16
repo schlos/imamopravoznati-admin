@@ -1,57 +1,37 @@
 # Alaveteli administrator manual :construction:
 
-This is Jekyll Github pages with administrator's manual for ImamoPravoZnati.org. Few modifications are done on Swiss Theme to accomodate our needs.
+This is Jekyll Github pages with administrator's manual for ImamoPravoZnati.org. Few modifications are done on git-wiki Theme to accomodate our needs. git-wiki is a **modular and full featured wiki** powered by git, [github](https://pages.github.com/)/[gitlab](https://about.gitlab.com/product/pages/) pages and pull-requests!
 
-## Based on Swiss Jekyll Theme
+## Getting started
 
-Swiss is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
+The easier and faster way to use git-wiki is the "skeleton" method.
 
-See master branch for more details.
+**You don't need to install anything locally!**
 
-### Features:
-* Mobile-first design ensures this theme performs fastest on mobile while scaling elegantly to desktop-size screens.
-* Designed for blogs and sites heavy on written content, with bold typography styles, homepage summaries, and previous/next snippets.
-* Supports a wide range of HTML elements and markdown.
-* Flexible styles that can be reused for customization without adding additional CSS.
-* Dynamically generated navigation links. See docs for adding pages with specific post category for-loops.
+1. Simply fork/clone [skeleton repo](https://github.com/Drassil/git-wiki-skeleton) or click on "Use this template" button to create your copy of the skeleton project.
 
-## Installation
+2. Edit _config.yml and other pages as you need and then deploy it on github/gitlab pages.
 
-Add this line to your Jekyll site's Gemfile:
+**Done**! now wait that your page will be published and you're ready **_to wiki_**!
 
-```ruby
-gem "jekyll-swiss"
-```
+## Features
 
-And add this line to your Jekyll site:
+* Improvements in the **cooperative** aspect: forks, pull-requests and roles.
+* You can **customize your wiki** as you want with style sheets and even changing the layout. (see customization section below)
+* **No databases!** Only static files that can be downloaded in a few seconds.
+* **Blazing fast** and free thankfully to Github/Gitlab Pages and Jekyll Server Side Generation process!
+* **Markdown and html** mixed together!
+* **Multiple free search engines!** on a static site!
+* **History, revision comparison** and everything you need from a wiki platform.
+* You can **edit your pages** with the standard git editor, prose.io (integrated) or any kind of editor you prefer.
+* Non-existent wiki page links are "[red](red.md)", you can **click on them to automatically create a new page**!
+* [External links](http://www.google.com) get the right icon automatically
+* **Component system with hooks** that allows you to totally customize your wiki UI. (see customization section below)
+* Some **nice internal themes** to change your entire wiki UI with 1 simple configuration (see customization section below)
+* Integrated **Blogging** feature thanks to jekyll!
+* Automatic generated **TOC**
+* You can download the entire wiki for **offline** usage and even navigate directly using a markdown reader
 
-```yaml
-theme: jekyll-swiss
-```
+You can use it with jekyll ["remote_theme"](https://github.com/benbalter/jekyll-remote-theme) feature or fork/copy the master branch  and start your wiki in just 1 minute*.
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-swiss
-
-## Usage
-This theme comes in eight different color variations. The default color is set to the custom violet theme, to change to a different theme edit the config under `theme-color: violet`.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/broccolini/swiss. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-You theme is setup just like a normal Jelyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+Instructions and full documentation: (http://drassil.github.io/git-wiki)

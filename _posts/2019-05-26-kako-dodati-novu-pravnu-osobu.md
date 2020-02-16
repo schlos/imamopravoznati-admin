@@ -1,9 +1,9 @@
 ---
-layout: category-post
-title:  "Kako dodati novu pravnu osobu"
-date:   2019-05-26 00:00:00 -0000
-categories: how-to
+published: true
+title: Kako dodati novu pravnu osobu
 ---
+
+# Kako dodati novu pravnu osobu
 
 Dodavanje nove pravne osobe može biti inicirano na više načina:
 - administrator otkrije novo potencijalno tijelo javne vlasti u sklopu [redovnog održavanja][maintenance]

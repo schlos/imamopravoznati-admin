@@ -1,11 +1,11 @@
 ---
-layout: category-post
-title:  "Govor mržnje"
-date:   2017-09-17 00:00:00 -0000
-categories: template
+published: true
+title: Korisnik koristi portal za govor mržnje
 ---
 
-To može biti klevetanje, uvreda, teško sramoćenje, govor protiv časti i ugleda, itd.
+# Korisnik koristi portal za govor mržnje
+
+Govor mržnje može biti klevetanje, uvreda, teško sramoćenje, govor protiv časti i ugleda, itd.
 
 U slučaju da korisnik koristi {{ site.portal.name }} za slanje poruka koje nisu u skladu s pravilima korištenja, potrebno ga je obavijestiti na slijedeći način:
 
