@@ -51,6 +51,6 @@ Ovdje koristimo često sljedeće pojmove:
 - **komentar** je komentar bilo kojeg korisnika na bilo kojem predmetu; oni se ne šalju pravoj osobi
 
 [richard-blog-2009]:    https://www.mysociety.org/2009/10/13/behind-whatdotheyknow/
-[maintenance]:          /2017/09/17/odrzavanje.html
-[user-support]:         /2017/09/16/korisnicka-podrska.html
+[maintenance]:          /odrzavanje
+[user-support]:         /korisnicka-podrska
 [IPZ]:                  https://imamopravoznati.org
