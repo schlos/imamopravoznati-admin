@@ -1,0 +1,34 @@
+prose:
+  # Restricts authoring access to a directory
+  rooturl: '_posts'
+  # Turns on Jekyll live previews. The url is the homepage of the live site.
+  siteurl: 'http://staff.imamopravoznati.org/'
+  # Specify a media directory uploading images defaults to.
+  # When media is added to this directory, a listing of available assets is
+  # populated from the image dropdown link on markdown files
+  media: 'assets/images'
+  # Array of files to ignore and hide in Prose
+  ignore:
+    - CODE_OF_CONDUCT.md
+    - CONTRIBUTING.md
+    - LICENSE
+    - PULL_REQUEST_TEMPLATE.md
+    - README.md
+    - sync-wiki.sh
+    - CNAME
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_saas
+    - docker-compose.yml
+  metadata:
+    _posts:
+      standard:
+        - name: "published"
+          field:
+            element: "hidden"
+            value: "true"
+        - name: "title"
+          field:
+            element: "hidden"
+            value: "Title Goes Here"

@@ -1,8 +1,9 @@
 ---
-title: Zaštita podataka
+published: true
+title: Korisnik traži zaštitu podataka
 ---
 
-# Zaštita podataka
+# Korisnik traži zaštitu podataka
 
 Kada korisnik zatraži uklanjanje osobnih podataka ili osjetljivih osobnih podataka, npr. ako korisnik želi da uklonimo njegovo ime kompletno sa stranice:
 
