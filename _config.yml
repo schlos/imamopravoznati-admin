@@ -1,5 +1,5 @@
 # (string) Title of your wiki
-title: IPZ upravljanje
+title: Imamo pravo znati
 # (string) Description of your wiki
 description: Upravljanje portalom Imamo pravo znati
 # (boolean) Enable/disable wiki page list in sidebar
@@ -23,7 +23,7 @@ git_branch: "gh-pages"
 # (string) Url of logo image, it can be full, absolute or relative.
 logo_url: assets/images/1200px-Wikipedia-logo-v2.svg_.png
 # (string) The UA-XXXXX-Y code from google analytic to enable GA on your wiki
-google_analytics:
+google_analytics: "UA-46708458-14"
 # (string) folder where wiki pages are stored, it's needed for tool buttons
 wiki_folder: "wiki"
 # (boolean) if you're using github wiki as submodule then this config
