@@ -26,9 +26,9 @@ prose:
       standard:
         - name: "published"
           field:
-            element: "hidden"
-            value: "true"
+            element: "checkbox"
+            value: "false"
         - name: "title"
           field:
-            element: "hidden"
-            value: "Title Goes Here"
+            element: "text"
+            label: "title"
